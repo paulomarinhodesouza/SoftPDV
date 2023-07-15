@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.br.softPDV</groupId>
-    <artifactId>SoftPDV3</artifactId>
+    <groupId>com.br.softpdv</groupId>
+    <artifactId>Softpdv</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging> 
     <build>
@@ -68,8 +68,8 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>com.br.softpdv.softpdv3.SoftPDV3.View.Home</exec.mainClass>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+        <exec.mainClass>com.br.softpdv.View.Home</exec.mainClass>
     </properties>
 </project>

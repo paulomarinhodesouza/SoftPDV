@@ -5,7 +5,7 @@
     xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">  
     <persistence-unit name="SoftPDV-PU"  transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>com.br.softpdv.softpdv3.SoftPDV3.DAO.SoftPDVJPA</class>
+        <class>com.br.softpdv.DAO.SoftPDVJPA</class>
 
         <shared-cache-mode>NONE</shared-cache-mode>
         <properties>
